@@ -1,1 +1,2 @@
 # beecrowd_solutions
+This repository contains solutions to problems from the beecrowd (formerly URI Online Judge) platform, specifically in SQL for PostgreSQL. Each solution is organized in a separate file named according to the problem number and title for easy reference. The solutions are designed to help users understand how to approach and solve SQL problems effectively.
