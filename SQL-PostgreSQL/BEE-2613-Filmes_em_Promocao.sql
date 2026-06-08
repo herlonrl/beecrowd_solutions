@@ -1,6 +1,6 @@
 --
 
-SELECT id, name 
-FROM movies
-WHERE id_prices = 5;
+select id, name 
+from movies
+where id_prices = 5;
 

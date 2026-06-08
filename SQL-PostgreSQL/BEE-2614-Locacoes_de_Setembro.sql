@@ -1,7 +1,8 @@
 --
 
-SELECT c.name, r.rentals_date 
-FROM customers c 
-INNER JOIN rentals r ON c.id = r.id_customers 
-WHERE r.rentals_date BETWEEN '2016-09-01' AND '2016-09-30';
+select c.name, r.rentals_date 
+from customers c 
+inner join rentals r on c.id = r.id_customers 
+where r.rentals_date 
+between '2016-09-01' and '2016-09-30';
 

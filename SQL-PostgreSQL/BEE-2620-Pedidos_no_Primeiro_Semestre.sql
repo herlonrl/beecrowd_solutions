@@ -1,7 +1,6 @@
 --
 
-SELECT c.name, o.id
-FROM customers c
-INNER JOIN orders o ON c.id = o.id_customers
-WHERE o.orders_date < '2016-07-01';
-
+select c.name, o.id  
+from customers c 
+inner join orders o on c.id = o.id_customers 
+where o.orders_date < '07/01/2016';

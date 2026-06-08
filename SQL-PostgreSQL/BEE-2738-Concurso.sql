@@ -1,8 +1,7 @@
 --
 
-SELECT c.name, 
-       ROUND((((s.math * 2) + (s.specific * 3) + (s.project_plan * 5)) / 10.0), 2) AS avg
-FROM score s
-INNER JOIN candidate c ON s.candidate_id = c.id
-ORDER BY avg DESC;
+select c.name, round((((s.math * 2) + (s.specific * 3) + (s.project_plan * 5)) / 10.0), 2) as avg 
+from score s
+inner join candidate c on s.candidate_id = c.id
+order by avg desc; 
 
